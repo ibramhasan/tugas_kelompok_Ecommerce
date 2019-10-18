@@ -6,7 +6,130 @@ body {
 
 
 
+<<<<<<< HEAD
 header {
   background-color: #323232;
   color: #ffffff;
 }
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section 1*/
+.satu .container .row .col-sm-3 img {
+    opacity: 0.6;
+    filter: alpha(opacity=40);
+}
+
+.satu .container .row .col-sm-3 img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.satu .container .row .col-sm-3 img {
+    padding: 30px;
+    margin-top: 40px;
+}
+
+/*section 2*/
+.kedua .container-fluid .row .col .row .col-sm-2 img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}
+
+.kedua .container-fluid .row .col .row .col-sm-2 img {
+    padding: 10px;
+    margin-top: 40px;
+    background-color: white;
+}
+
+/*section 3*/
+.ketiga .container .row .col-sm-3 img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}
+
+.ketiga .container .row .col-sm-3 img {
+    padding: 30px;
+    margin-top: 40px;
+}
+
+
+
+
+
+/* FOOTER ADIT */
+
+
+footer {
+    background-color: #323232;
+    font-family: "Questrial";
+    padding: 5vmin 14vmin
+}
+
+.logo {
+    padding-top: 5vmin;
+    width: 10em;
+}
+
+.sponsor img {
+    width: 9rem;
+    padding: 11vmin 3vmin;
+}
+
+footer .coloumn i {
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 0 2px;
+}
+
+footer .col-sm-2 .text-muted {
+    padding-top: 11vmin;
+}
+
+
+.text-light {
+    color: #E63373 !important
+}
+
+.batch_2 {
+    background-color: #fade08;
+}
+
+/* FOOTER ADIT */
+>>>>>>> 58de6fd1f58fa4f3dc973d3cd0f017c11ac9b606
