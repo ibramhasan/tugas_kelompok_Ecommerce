@@ -9,3 +9,26 @@
 7. warna font tag <h1> (contoh seperti judul, atau yang di bold) : #E63373
 8. warna Background : jgn di isi. TUNGGU kalau sudah di MASTER.
 9. pastikan penamaan foto harus jelas! dan masukkan di folder img dah sudah ada masing2 nama folder.
+
+---------------------- PEMBAGIAN TUGAS-------------------
+
+TEAM LEAD : HASAN
+--------------------
+
+Landing Page : HEADER,MAIN SECTION,FOOTER
+
+JOBDESK HASAN  :  MAIN SECTION
+JOBDESK ADIT   : FOOTER
+JOBDESK TAUFIK : NAV-BAR DAN CAROUSEL
+=============================================
+
+Brief : Kerangka harus Mirip!!!! CAMKAN ITU!!!!
+
+===============================================
+
+ATTENTION :
+
+COMMIT HARUS MENGGUNAKAN BAHASA YANG LUGAS DAN JELAS!
+
+JANGAN LUPA NGASI TAU TEAMNYA APA BILA SUDAH SELESAI! JANGAN DIEM BAE, TAU2 BERAK!
+========================================================================================
