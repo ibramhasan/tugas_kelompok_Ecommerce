@@ -27,11 +27,45 @@ header {
 
 
 
+/* Section */
 
 
+section {
+    padding-top: 5vmin;
+    padding-bottom: 5vmin;
+}
 
+.breadcrumb {
+    background-color: inherit;
+}
 
+.product-image .img-fluid {
+    height: 45vmin;
+    display: inline-block;
+    padding-bottom: 3vmin;
+}
 
+.produc-information {
+    padding-bottom: 2vmin;
+}
+
+.product-information .addtochart .btn {
+    margin-top: 5vmin;
+    margin-bottom: 2vmin;
+    border-radius: 0;
+    background-color: #E63373;
+    border: none;
+}
+
+.product-information .addtowishlist .btn {
+    border-radius: 0;
+    border: none;
+}
+
+.btn {
+    outline: none !important;
+    box-shadow: none !important;
+}
 
 
 

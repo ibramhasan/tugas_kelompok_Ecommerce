@@ -142,65 +142,125 @@
 
         <section>
 
-            <div class="category-product container-fluid">
-                <div class="category">
-                    <nav class="nav">
-                        <a class="nav-link" href="#">Category</a>
-                        <a class="nav-link" href="#">Single Product</a>
-                    </nav>
-                    <div class="product-details">
-                        <div class="row">
-                            <div class="col-sm-5">
-                                <img src="img/hasan/1.jpg" class="img-fluid" alt="">
-                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <div class="row">
-                                                <div class="col-4">
-                                                    <img src="img/hasan/3.jpg" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <img src="img/hasan/3.jpg" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <img src="img/hasan/3.jpg" class="img-fluid" alt="">
-                                                </div>
+            <div class="category-product container p-4">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="landing_page.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Produt</li>
+                    </ol>
+                </nav>
+                <!-- Product -->
+                <div class="product">
+                    <div class="row">
+                        <div class="col-sm-6">
+
+                            <div class="product-image">
+                                <img src="img/hasan/3.jpg" class="img-fluid rounded mx-auto d-block" alt="jam">
+                            </div>
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <!-- Slide Product 1 -->
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="img/hasan/3.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="img/hasan/3.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="img/hasan/3.jpg" class="d-block w-100" alt="...">
                                             </div>
                                         </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-4">
-                                                    <img src="img/hasan/4.jpg" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <img src="img/hasan/4.jpg" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <img src="img/hasan/4.jpg" class="img-fluid" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-
-
                                     </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
-                                        data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button"
-                                        data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
+                                    <!-- end Slide 1 -->
+                                    <!-- slide 2 -->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="img/hasan/3.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="img/hasan/3.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="img/hasan/3.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end slide 2 -->
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="product-information">
+                                <div class="product-name">
+                                    <h4>Jam Roleks</h4>
+                                    <div class="text-muted">
+                                        IDR 1.900.000
+                                    </div>
+                                </div>
+                                <div class="product-details pt-5">
+                                    <b>Quantity:</b>
+                                    <form>
+                                        <div class="col-sm-4 my-1">
+                                            <label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text">Quantity</div>
+                                                </div>
+                                                <input type="text" class="form-control"
+                                                    id="inlineFormInputGroupUsername">
+                                            </div>
+                                    </form>
+                                </div>
+                                <div class="addtochart">
+                                    <a href="#"><button type="button" class="btn btn-primary btn-sm col-12">Add to
+                                            Chart</button></a>
+                                </div>
+                                <div class="addtowishlist">
+                                    <a href="#"><button type="button" class="btn btn-primary btn-sm col-12">Add to
+                                            Wishlist</button></a>
                                 </div>
                             </div>
-                            <div class="col-sm-7"></div>
                         </div>
                     </div>
                 </div>
+                <!-- End Product -->
+                <!-- Product Description -->
 
-
+                <div class="product-description container pt-4">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+                                role="tab" aria-controls="nav-home" aria-selected="true">Product Description</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                                role="tab" aria-controls="nav-profile" aria-selected="false">Reviews</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eligendi vitae saepe dicta
+                            beatae, tenetur unde rem sed perferendis mollitia, rerum, commodi optio voluptatibus laborum
+                            nisi temporibus animi. Iure accusamus deserunt doloribus nam molestiae consequuntur quas
+                            debitis similique reiciendis perspiciatis enim, ipsam ratione ipsa, natus velit eligendi,
+                            praesentium nemo ex!
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            ...</div>
+                    </div>
+                </div>
 
             </div>
 
