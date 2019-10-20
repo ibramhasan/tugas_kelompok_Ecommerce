@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+body {
+    font-family: "Questrial", sans-serif;
+}
+
+header {
+    background-color: #323232;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER ADIT */
+
+
+footer {
+    background-color: #323232;
+    font-family: "Questrial";
+    padding: 5vmin 14vmin
+}
+
+.logo {
+    padding-top: 5vmin;
+    width: 10em;
+}
+
+.sponsor img {
+    width: 9rem;
+    padding: 11vmin 3vmin;
+}
+
+footer .coloumn i {
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 0 2px;
+}
+
+footer .col-sm-2 .text-muted {
+    padding-top: 11vmin;
+}
+
+
+.text-light {
+    color: #E63373 !important
+}
+
+.batch_2 {
+    background-color: #fade08;
+}
+
+/* FOOTER ADIT */
